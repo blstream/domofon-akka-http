@@ -1,0 +1,67 @@
+{
+  "name": "domofon-frontend-angular2",
+  "version": "0.1.0",
+  "description": "Front-end application for domofon-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "start": "./node_modules/.bin/webpack-dev-server --port 9000 --content-base dist",
+    "lint" : "./node_modules/.bin/tslint --force ./src/**/*.ts",
+    "postinstall": "./node_modules/.bin/typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blstream/domofon-frontend-angular2.git"
+  },
+  "author": "BLStream",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blstream/domofon-frontend-angular2/issues"
+  },
+  "homepage": "https://github.com/blstream/domofon-frontend-angular2#readme",
+  "dependencies": {
+    "@angular2-material/core": "^2.0.0-alpha.6",
+    "@angular2-material/button": "^2.0.0-alpha.6",
+    "@angular2-material/card": "^2.0.0-alpha.6",
+    "@angular2-material/checkbox": "^2.0.0-alpha.6",
+    "@angular2-material/input": "^2.0.0-alpha.6",
+    "@angular2-material/list": "^2.0.0-alpha.6",
+    "@angular2-material/progress-circle": "^2.0.0-alpha.6",
+    "@angular2-material/radio": "^2.0.0-alpha.6",
+    "@angular2-material/sidenav": "^2.0.0-alpha.6",
+    "@angular2-material/toolbar": "^2.0.0-alpha.6",
+    "@angular/common":  "2.0.0-rc.3",
+    "@angular/compiler":  "2.0.0-rc.3",
+    "@angular/core":  "2.0.0-rc.3",
+    "@angular/forms": "^0.1.0",
+    "@angular/http":  "2.0.0-rc.3",
+    "@angular/platform-browser":  "2.0.0-rc.3",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.3",
+    "@angular/router":  "3.0.0-alpha.7",
+    "@angular/router-deprecated":  "2.0.0-rc.2",
+    "es6-promise": "^3.2.1",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.35",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.15.0",
+    "jshint": "^2.9.2",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^1.0.0",
+    "raw-loader": "0.5.1",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.14.0",
+    "typescript": "^1.8.10",
+    "typings":"^0.7.12",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
