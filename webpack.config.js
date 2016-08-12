@@ -21,6 +21,12 @@ module.exports = {
         },{
             test: /\.html$/,
             loader: 'raw-loader'
+        },{
+            test: /\.pug/, 
+            loader: "pug-html-loader"
+        },{
+            test: /\.scss$/,
+            loaders: ["style", "css", "sass"]
         }]
     },
     resolve: {
@@ -33,7 +39,7 @@ module.exports = {
          * See: https://github.com/webpack/docs/wiki/optimization#multi-page-app
          */
         new webpack.optimize.CommonsChunkPlugin({
-          name: 'vendor'
+            name: 'vendor'
         }),
 
         /*
@@ -41,7 +47,7 @@ module.exports = {
          * See: https://github.com/ampedandwired/html-webpack-plugin
          */
         new HtmlWebpackPlugin({
-          template: 'src/index.html'
+            template: 'src/index.html'
         })
     ]
 }
