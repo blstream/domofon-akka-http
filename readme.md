@@ -1,3 +1,5 @@
+![Delivery guy using intercome](delivery-guy300.png)
+
 # Domofon
 
 *Domofon* (ang. *intercom*) is an application created as part of BLStream Front-end Guild in Wrocław. It is a continuation of CodeSpace workshops' project.
